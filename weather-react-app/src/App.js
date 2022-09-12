@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { getFormattedWeatherData } from "./weatherService";
 
 function App() {
-  const [city, setCity] = useState("athens");
+  const [city, setCity] = useState("athens",);
   const [weather, setWeather] = useState(null);
   const [units, setUnits] = useState("metric");
   const [bg, setBg] = useState(hotBg);
